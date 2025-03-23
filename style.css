@@ -36,4 +36,9 @@ li {list-style: none;}
 .hero-section .left-wrapper .nav-buttons .sign-up-with-google span img{width: 24px; height: 24px;}
 .hero-section .right-wrapper{margin-right: 3rem;}
 .hero-section .right-wrapper .hero-image{width: 537px; height: 326px; overflow: hidden; border-radius: 1rem;}
-.hero-section .right-wrapper .hero-image img{width: 100%; height: 100%; object-fit: cover};
+.hero-section .right-wrapper .hero-image img{width: 100%; height: 100%; object-fit: cover}
+
+.partners{display: flex; justify-content: space-between; align-items: center; gap: 2rem; margin-top: 2rem;}
+.partners li{width: 120px; height: 40px; overflow: hidden;}
+.partners li img{width: 100%; height: 100%; object-fit: contain;}
+
