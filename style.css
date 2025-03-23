@@ -22,3 +22,6 @@ li {list-style: none;}
 .navbar .right-wrapper .nav-buttons{display: flex; justify-content: end; align-items: center; gap: 1.5rem;}
 .navbar .right-wrapper .nav-buttons .talk-to-sales-btn{width: 140px; height: 50px; border: 2px solid #601f68; color: #601f68; border-radius: 0.25rem; display: flex; justify-content: center; align-items: center; font-weight: 600;}
 .navbar .right-wrapper .nav-buttons .try-for-free-btn{width: 140px; height: 50px; background-color: #601f68; color: #fff; border-radius: 0.25rem; display: flex; justify-content: center; align-items: center; font-weight: 600;}
+
+.toast{width: 100%; padding: 1rem 2rem; background-color: #0065a1; color: #fff; font-size: 0.9rem; margin-top: 1rem; border-radius: 2rem; display: flex; justify-content: space-between; align-items: center;}
+.toast .right-wrapper svg{width: 24px; height: 24px;}
