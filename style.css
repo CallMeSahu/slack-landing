@@ -25,3 +25,15 @@ li {list-style: none;}
 
 .toast{width: 100%; padding: 1rem 2rem; background-color: #0065a1; color: #fff; font-size: 0.9rem; margin-top: 1rem; border-radius: 2rem; display: flex; justify-content: space-between; align-items: center;}
 .toast .right-wrapper svg{width: 24px; height: 24px;}
+
+.hero-section{display: flex; align-items: center; gap: 5rem; margin-top: 1.5rem;}
+.hero-section .left-wrapper h1{font-size: 3rem;}
+.hero-section .left-wrapper p{margin: 1rem 0 2rem 0; font-weight: 500;}
+.hero-section .left-wrapper .nav-buttons{display: flex; align-items: center; gap: 1.5rem;}
+.hero-section .left-wrapper .nav-buttons .try-for-free-btn{width: 140px; height: 50px; background-color: #601f68; color: #fff; border-radius: 0.25rem; display: flex; justify-content: center; align-items: center; font-weight: 600;}
+.hero-section .left-wrapper .nav-buttons .sign-up-with-google{width: 250px; height: 50px; background-color: #2c84f0; color: #fff; font-weight: 600; border-radius: 0.25rem; display: flex; justify-content: space-around; align-items: center;}
+.hero-section .left-wrapper .nav-buttons .sign-up-with-google span:first-of-type{background-color: #fff; width: 40px; height: 40px; display: flex; justify-content: center; align-items: center; border-radius: 0.25rem;}
+.hero-section .left-wrapper .nav-buttons .sign-up-with-google span img{width: 24px; height: 24px;}
+.hero-section .right-wrapper{margin-right: 3rem;}
+.hero-section .right-wrapper .hero-image{width: 537px; height: 326px; overflow: hidden; border-radius: 1rem;}
+.hero-section .right-wrapper .hero-image img{width: 100%; height: 100%; object-fit: cover};
