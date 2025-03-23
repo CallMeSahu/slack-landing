@@ -1,5 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-* { margin: 0; padding: 0; box-sizing: border-box;}  
-html, body { width: 100%; height: 100%; font-family: "Work Sans", sans-serif; background-color: #f8f9fa;}  
+*{ margin: 0; padding: 0; box-sizing: border-box;}  
+html,body{ width: 100%; height: 100%; font-family: "Work Sans", sans-serif; background-color: #f8f9fa;}
+a { text-decoration: none; color: inherit; cursor: pointer;} 
+li {list-style: none;} 
 
+.container{max-width: 1200px; margin: 0 auto;}
+
+.navbar{display: flex; justify-content: space-between; align-items: center; margin-top: 2rem;}
+.navbar .left-wrapper{display: flex; align-items: center; gap: 3rem;}
+.navbar .left-wrapper .logo{width: 100px; height: 60px; overflow: hidden; display: flex; justify-content: center; align-items: center;}
+.navbar .left-wrapper .logo img{width: 100%; height: 100%; object-fit: contain;}
+.navbar .left-wrapper .nav-links{display: flex; align-items: center; gap: 2rem;}
+.navbar .left-wrapper .nav-links li{font-weight: 500;}
+
+.navbar .right-wrapper{display: flex; align-items: center; gap: 3rem;}
+.navbar .right-wrapper .nav-links{display: flex; align-items: center; gap: 2rem;}
+.navbar .right-wrapper .nav-links .search{display:flex; justify-content: center; align-items: center;}
+.navbar .right-wrapper .nav-links .search svg{width: 24px; height: 24px;}
+.navbar .right-wrapper .nav-links a{font-weight: 500;}
+.navbar .right-wrapper .nav-buttons{display: flex; justify-content: end; align-items: center; gap: 1.5rem;}
+.navbar .right-wrapper .nav-buttons .talk-to-sales-btn{width: 140px; height: 50px; border: 2px solid #601f68; color: #601f68; border-radius: 0.25rem; display: flex; justify-content: center; align-items: center; font-weight: 600;}
+.navbar .right-wrapper .nav-buttons .try-for-free-btn{width: 140px; height: 50px; background-color: #601f68; color: #fff; border-radius: 0.25rem; display: flex; justify-content: center; align-items: center; font-weight: 600;}
